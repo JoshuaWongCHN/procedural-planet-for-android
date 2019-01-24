@@ -1,6 +1,7 @@
 # procedural-planet-for-android
 Proceural planet in Android and libgdx
 参考[WebGL版本][1]
+
 [动态效果][2]
 
 ## 实现过程
