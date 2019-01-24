@@ -5,6 +5,9 @@ Proceural planet in Android and libgdx
 
 [动态效果][2]
 
+## 效果图
+<image src="https://github.com/JoshuaWongCHN/procedural-planet-for-android/blob/master/android/assets/planet.png" />
+
 ## 实现过程
 1. 建立球体模型
  - 生成立方体模型顶点
