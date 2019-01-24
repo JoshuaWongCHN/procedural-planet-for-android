@@ -14,5 +14,5 @@ Proceural planet in Android and libgdx
 3. 加载Shader, 进行渲染
  
  
- [1]:[https://github.com/holgerl/procedural-planet]
- [2]:[https://holgerl.github.io/procedural-planet/]
+ [1]:https://github.com/holgerl/procedural-planet
+ [2]:https://holgerl.github.io/procedural-planet/
