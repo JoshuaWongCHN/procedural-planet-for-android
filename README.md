@@ -1,7 +1,7 @@
 # procedural-planet-for-android
 Proceural planet in Android and libgdx
-参考[WebGL版本][https://github.com/holgerl/procedural-planet]实现
-[动态效果][https://holgerl.github.io/procedural-planet/]
+参考[WebGL版本][1]
+[动态效果][2]
 
 ## 实现过程
 1. 建立球体模型
@@ -14,4 +14,5 @@ Proceural planet in Android and libgdx
 3. 加载Shader, 进行渲染
  
  
- 
+ [1][https://github.com/holgerl/procedural-planet]
+ [2][https://holgerl.github.io/procedural-planet/]
