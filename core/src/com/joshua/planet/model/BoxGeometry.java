@@ -8,9 +8,10 @@ public class BoxGeometry {
     public final FloatArray vertices = new FloatArray();
     public final FloatArray normals = new FloatArray();
     public final FloatArray uvs = new FloatArray();
+
     public int numberOfVertices = 0;
 
-    private void BoxGeometry(float width, float height, float depth, int widthSegments, int heightSegments, int
+    public BoxGeometry(float width, float height, float depth, int widthSegments, int heightSegments, int
             depthSegments) {
         // build each side of the box geometry
         buildPlane(2, 1, 0, -1, -1, depth, height, width, depthSegments, heightSegments, 0); // px
