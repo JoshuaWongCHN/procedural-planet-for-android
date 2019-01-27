@@ -1,6 +1,6 @@
 android {
     buildToolsVersion "28.0.3"
-    compileSdkVersion 28
+    compileSdkVersion 27
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
@@ -11,15 +11,14 @@ android {
             assets.srcDirs = ['assets']
             jniLibs.srcDirs = ['libs']
         }
-
     }
     packagingOptions {
         exclude 'META-INF/robovm/ios/robovm.xml'
     }
     defaultConfig {
         applicationId "com.joshua.planet"
-        minSdkVersion 9
-        targetSdkVersion 28
+        minSdkVersion 21
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
     }

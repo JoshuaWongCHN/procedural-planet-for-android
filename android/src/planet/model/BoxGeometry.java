@@ -1,4 +1,4 @@
-package com.joshua.planet.model;
+package planet.model;
 
 import com.badlogic.gdx.utils.FloatArray;
 import com.badlogic.gdx.utils.ShortArray;

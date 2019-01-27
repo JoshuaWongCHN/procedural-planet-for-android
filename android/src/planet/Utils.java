@@ -1,4 +1,4 @@
-package com.joshua.planet;
+package planet;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Pixmap;

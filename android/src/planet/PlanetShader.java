@@ -1,4 +1,4 @@
-package com.joshua.planet;
+package planet;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Cubemap;
