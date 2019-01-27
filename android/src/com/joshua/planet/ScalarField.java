@@ -1,4 +1,4 @@
-package planet;
+package com.joshua.planet;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Pixmap;
@@ -6,7 +6,6 @@ import com.badlogic.gdx.math.Vector3;
 
 import static com.joshua.planet.ScalarField.InterpolationType.NEAREST_NEIGHBOUR;
 import static com.joshua.planet.ScalarField.InterpolationType.TRI_COSINE;
-
 
 public class ScalarField {
     enum InterpolationType {
@@ -20,7 +19,6 @@ public class ScalarField {
         }
         return maps;
     }
-
 
     private static Pixmap createMap(int width, int height, int index, int maxDetail) {
         Pixmap map = new Pixmap(width, height, Pixmap.Format.RGBA8888);
